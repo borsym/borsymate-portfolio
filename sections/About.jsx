@@ -22,8 +22,8 @@ const About = () => (
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        I am a highly motivated individual with{' '}
-        <span className="font-extrabold text-white">1.5 years</span> of software
+        I am a highly motivated individual with nearly{' '}
+        <span className="font-extrabold text-white">2 years</span> of software
         development experience. I see programming as{' '}
         <span className="font-extrabold text-white">fun</span> rather than work.
         I am seeking to leverage my solid development skills, with a focus on{' '}
