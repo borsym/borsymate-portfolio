@@ -19,14 +19,26 @@ const Footer = () => (
         <h4 className="font-bold md:text-[64px] text-[44px] text-white">
           Contact Me
         </h4>
-        <button
-          type="button"
-          className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]"
-        >
-          <span className="font-normal text-[16px] text-white">
-            <a href="mailto: borsymatee@gmail.com">Send Email</a>
-          </span>
-        </button>
+        <div className="flex gap-3">
+          <button
+            type="button"
+            className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]"
+          >
+            <span className="font-normal text-[16px] text-white">
+              <a href="mailto: borsymatee@gmail.com">Send Email</a>
+            </span>
+          </button>
+          <button
+            type="button"
+            className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]"
+          >
+            <span className="font-normal text-[16px] text-white">
+              <a href="Borsy_Mate_CV.pdf" download>
+                Download PDF
+              </a>
+            </span>
+          </button>
+        </div>
       </div>
 
       <div className="flex flex-col">
@@ -35,7 +47,7 @@ const Footer = () => (
         <div className="flex items-center justify-between flex-wrap gap-4">
           <h4 className="font-extrabold text-[24px] text-white">BORSY MATE</h4>
           <p className="font-normal text-[14px] text-white opacity-50">
-            Copyright © 2022. All rights reserved.
+            Copyright © {new Date().getFullYear()}. All rights reserved.
           </p>
 
           <div className="flex gap-4">
