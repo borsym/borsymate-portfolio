@@ -1,41 +1,44 @@
 export const exploreWorlds = [
   {
-    id: 'walking',
-    imgUrl: '/walking.png',
-    title: 'Wedding',
-    stack: 'React, Framer Motion, Tailwind CSS',
-    href: ""
+    id: 'booking',
+    imgUrl: '/travel.jpg',
+    title: 'Booking',
+    stack: 'React, Redux, Node.js, Framer Motion, Tailwind CSS, MongoDB',
+    href: 'https://github.com/borsym/booking',
   },
   {
     id: 'portfolio',
     imgUrl: '/portfolio.png',
     title: 'Portfolio',
     stack: 'Next.js, Framer Motion, Tailwind CSS',
+    href: 'https://github.com/borsym/borsymate-portfolio',
   },
   {
-    id: 'booking',
-    imgUrl: '/booking.png',
-    title: 'The Upside Down',
-    stack: 'React, Redux, Node.js, Framer Motion, Tailwind CSS, MongoDB',
+    id: 'walking',
+    imgUrl: '/walking.png',
+    title: 'Wedding',
+    stack: 'React, Framer Motion, Tailwind CSS',
+    href: 'https://github.com/borsym/booking',
   },
   {
     id: 'pathfinder',
     imgUrl: '/path.png',
     title: 'Pathfinding Visualizer',
     stack: 'React, Cypress, Tailwind CSS, FastAPI',
+    href: 'https://github.com/borsym/Pathfinding-visualization',
   },
 ];
 
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  'The desire to acquire new knowledge and skills',
+  'My motivation is to find joy and enjoyment in my work, and to maintain that positive attitude towards my job.',
+  'to assist and support others, making a positive impact on their lives.',
 ];
 
 export const newFeatures = [
   {
     imgUrl: '/vrpano.svg',
-    title: 'A new world',
+    title: 'Board games',
     subtitle:
       'we have the latest update with new world for you to try never mind',
   },
@@ -70,19 +73,13 @@ export const insights = [
 
 export const socials = [
   {
-    name: 'twitter',
-    url: '/twitter.svg',
-  },
-  {
     name: 'linkedin',
     url: '/linkedin.svg',
+    href: 'https://www.linkedin.com/in/borsymate/',
   },
   {
-    name: 'instagram',
-    url: '/instagram.svg',
-  },
-  {
-    name: 'facebook',
-    url: '/facebook.svg',
+    name: 'github',
+    url: '/github.svg',
+    href: 'https://github.com/borsym',
   },
 ];

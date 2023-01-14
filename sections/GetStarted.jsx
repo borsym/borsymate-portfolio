@@ -18,20 +18,20 @@ const GetStarted = () => (
     >
       <motion.div
         variants={planetVariants('left')}
-        className={`flex-1 ${styles.flexCenter}`}
+        className={`flex-1 ${styles.flexCenter} `}
       >
         <img
-          src="/get-started.png"
-          alt="get-started"
-          className="w-[90%] h-[90%] object-contain"
+          src="/little_prince.jpg"
+          alt="prince"
+          className="w-[90%] h-[90%] object-contain rounded-[40px]"
         />
       </motion.div>
       <motion.div
         variants={fadeIn('left', 'tween', 0.2, 1)}
         className="flex-[0.75] flex justify-center flex-col"
       >
-        <TypingText title="| How Metaversus Works" />
-        <TitleText title={<>Get started with just a few clicks</>} />
+        <TypingText title="| Motivations" />
+        <TitleText title={<>What drives me</>} />
         <div className="mt-[31px] flex flex-col max-w-[370px] gap-[24px]">
           {startingFeatures.map((feature, index) => (
             <StartSteps

@@ -9,6 +9,7 @@ const ExploreCard = ({
   imgUrl,
   stack,
   title,
+  href,
   index,
   active,
   handleHover,
@@ -24,6 +25,7 @@ const ExploreCard = ({
       src={imgUrl}
       alt="planet-04"
       className="absolute w-full h-full object-cover rounded-[24px] bg-cover"
+      onClick={() => window.open(href)}
     />
     {active !== id ? (
       <h3 className="font-semibold sm:text-[26px] text-[18px] text-white absolute z-0 lg:bottom-20 lg:rotate-[-90deg] lg:origin-[0,0]">
