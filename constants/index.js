@@ -32,7 +32,7 @@ export const exploreWorlds = [
 export const startingFeatures = [
   'The desire to acquire new knowledge and skills',
   'My motivation is to find joy and enjoyment in my work, and to maintain that positive attitude towards my job.',
-  'to assist and support others, making a positive impact on their lives.',
+  'To assist and support others, making a positive impact on their lives.',
 ];
 
 export const newFeatures = [
